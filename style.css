@@ -173,3 +173,132 @@ header{
     padding: 32px;
     margin-top: 50px;
 }
+.target-contaner{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.text-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 24px;
+}
+.text-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+
+}
+.card-contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+.card-itmes-1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+}
+.card-itmes-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 20px;
+}
+.card-itmes-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+}
+.card-itmes-3 img{
+    height: 30px;
+}
+.card-itmes-2 img{
+    height: 30px;
+}
+.card-itmes-1 img{
+    height: 30px;
+}
+.card-itmes-1 h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card-itmes-1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 10px;
+
+}
+.card-itmes-2 h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card-itmes-2 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 10px;
+
+}
+.card-itmes-3 h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card-itmes-3 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 10px;
+
+}
+.card-itmes-1, a{
+    color: #000;
+}
+.card-itmes-2{
+    color: #000;
+}
+.card-itmes-3{
+    color: #000;
+}
