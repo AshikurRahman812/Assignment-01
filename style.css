@@ -13,7 +13,7 @@ html{
 }
 
 header{
-    max-width: 1440px;
+    /* width: 1440px; */
     height: 652px;
     margin: 0 auto;
     background-image: url(assets/Hero-bg.png);
@@ -346,6 +346,7 @@ header{
     margin-top: 48px;
     box-shadow: 10px 10px 5px lightblue;
 }
+
 .card-child{
     display: flex;
     justify-content: center;
@@ -376,4 +377,63 @@ header{
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 20px;
+}
+
+.background{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url('assets/handshake.jpg');
+    background-color: rgba(30, 30, 30, 0.631);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bg-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 45px;
+   
+  
+    
+}
+.bg-text p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    
+    
+}
+.input-part{
+    text-align: center;
+    margin-top: 40px;
+}
+input{
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding-left: 3px;
+
+}
+.input-item{
+    width: 530px;
+    height: 50px;
+
 }
