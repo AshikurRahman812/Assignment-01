@@ -302,3 +302,78 @@ header{
 .card-itmes-3{
     color: #000;
 }
+
+.learn-section{
+    width: 1140px;
+    height: 960px;
+    margin: 0 auto;
+    
+}
+.child-part{
+    text-align: center;
+    margin-top: 20px;
+}
+.child-part h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.child-part p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+.card-parent{
+    width: 1000px;
+    height: 235px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 48px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.card-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+.left-site img{
+    width: 70px;
+    height: 70px;
+}
+.right-site h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.right-site p{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
